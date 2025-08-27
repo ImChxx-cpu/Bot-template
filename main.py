@@ -28,7 +28,7 @@ class DiscordBot(commands.Bot):
     async def on_ready(self):
         print(f'{self.user} está listo!')
         await self.change_presence(
-            activity=discord.Game(name="Desarrollado por Jesús Jara S.")
+            activity=discord.Game(name="Desarrollado por (Ingresa tu nombre aquí)")
         )
 
 async def main():
